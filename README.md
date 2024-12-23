@@ -1,6 +1,6 @@
 ### Python Social Phisher 
 ### About : This is a free tool to create phishing pages 
-###⚠ Warning : The tool was made for educational purposes and your unethical use of it will get you into many problems , TAKE CARE ⚠
+⚠ Warning : The tool was made for educational purposes and your unethical use of it will get you into many problems , TAKE CARE ⚠
 ## How To install ?
 ## [ T E R M U X ]
 
