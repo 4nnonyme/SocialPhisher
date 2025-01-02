@@ -8,9 +8,9 @@ pkg install python
 
 pkg install git
 
-git clone https://github.com/FRn13ds/SocialPhisheR
+git clone https://github.com/FRn13ds/SocialPhisher
 
-cd SocialPhisheR
+cd SocialPhisher
 
 pip install flask
 
@@ -22,9 +22,9 @@ sudo apt-get install python3
 
 sudo apt-get install git
 
-git clone https://github.com/FRn13ds/SocialPhisheR
+git clone https://github.com/FRn13ds/SocialPhisher
 
-cd SocialPhisheR
+cd SocialPhisher
 
 pip3 install flask
 
