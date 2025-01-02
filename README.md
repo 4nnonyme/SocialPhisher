@@ -29,5 +29,6 @@ cd SocialPhisheR
 pip3 install flask
 
 python3 tool.py
+## V 0.2 
 
 # WAIT FOR THE NEXT UPDATE 
