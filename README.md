@@ -40,3 +40,15 @@ git clone https://github.com/FRn13ds/SocialPhisher
 cd SocialPhisher
 pip install flask
 python tool.py
+
+```
+🌐 Enable Public Access with Ngrok
+If you want to make your phishing page accessible over the internet using Ngrok, follow these steps:
+
+🔽 1. Install Ngrok
+Download from https://ngrok.com/download
+
+In a new terminal, run Ngrok on port 5000:
+```
+ngrok http 5000
+```
