@@ -1,34 +1,42 @@
-### Python Social Phisher 
-### About : This is a free tool to create phishing pages 
-⚠ Warning : The tool was made for educational purposes and your unethical use of it will get you into many problems , TAKE CARE ⚠
-## How To install ?
-## [ T E R M U X ]
+# 🐍 Python Social Phisher
+# update V0.3
+## 🎯 About
 
+**SocialPhisher** is a free and open-source Python-based tool that allows you to create phishing pages for educational and testing purposes only.
+
+> ⚠️ **Warning**  
+> This tool is intended **strictly for educational purposes** such as ethical hacking, awareness training, or penetration testing **with proper authorization**.  
+> **We are not responsible** for any misuse. Unauthorized use of this tool may lead to **legal consequences**.
+
+---
+
+## 💻 Supported Platforms
+
+- ✅ Termux (Android)
+- ✅ Kali Linux (or any Debian-based distro)
+- ✅ Windows 
+
+---
+
+## 📦 Installation
+
+### 📱 Termux
+
+```bash
 pkg install python
-
 pkg install git
-
 git clone https://github.com/FRn13ds/SocialPhisher
-
 cd SocialPhisher
-
 pip install flask
-
 python tool.py
+```
 
-## [ K A L I _ L I N U X ]
+### Kali linux
 
-sudo apt-get install python3
-
-sudo apt-get install git
-
+```bash
+pkg install python
+pkg install git
 git clone https://github.com/FRn13ds/SocialPhisher
-
 cd SocialPhisher
-
-pip3 install flask
-
-python3 tool.py
-## V 0.2 
-
-# WAIT FOR THE NEXT UPDATE 
+pip install flask
+python tool.py
