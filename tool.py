@@ -390,7 +390,7 @@ def facebook_login():
 if __name__ == '__main__':
         time.sleep(2)
         print(Fore.GREEN + ascii_art)
-        print("                                           V0.2")
+        print("                                           V0.3")
         print(Fore.RED +"Welcome Dear User !... ")
         enter = input(Style.RESET_ALL +"press any key to continue...")
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -416,3 +416,4 @@ if __name__ == '__main__':
                   else :
                        print(Fore.RED +"Something Went wrong , Try again !")
 main()
+
