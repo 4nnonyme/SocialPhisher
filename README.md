@@ -46,7 +46,7 @@ python tool.py
 ```bash
 Download The Zip File Below 
 ```
-https://github.com/4nnonyme/SocialPhisher/archive/refs/heads/main.zip
+▶️ https://github.com/4nnonyme/SocialPhisher/archive/refs/heads/main.zip
 
 
 🌐 Enable Public Access with Ngrok
