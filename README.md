@@ -44,8 +44,11 @@ python tool.py
 ```
 ### Windows 
 ```bash
-Download The Zip File Here : https://github.com/4nnonyme/SocialPhisher/archive/refs/heads/main.zip
+Download The Zip File Below 
 ```
+https://github.com/4nnonyme/SocialPhisher/archive/refs/heads/main.zip
+
+
 🌐 Enable Public Access with Ngrok
 If you want to make your phishing page accessible over the internet using Ngrok, follow these steps:
 
