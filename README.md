@@ -42,6 +42,10 @@ pip install flask
 python tool.py
 
 ```
+### Windows 
+```bash
+Download The Zip File
+```
 🌐 Enable Public Access with Ngrok
 If you want to make your phishing page accessible over the internet using Ngrok, follow these steps:
 
